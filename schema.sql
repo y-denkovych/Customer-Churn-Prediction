@@ -1,0 +1,20 @@
+CREATE TABLE fact_churn (
+account_length int,
+number_vmail_messages int,
+total_day_minutes decimal(10,2),
+total_day_calls int,
+total_day_charge decimal(10,2),
+total_eve_minutes decimal(10,2),
+total_eve_calls int,
+total_eve_charge decimal(10,2),
+total_night_minutes decimal(10,2),
+total_night_calls int,
+total_night_charge decimal(10,2),
+total_intl_minutes decimal(10,2),
+total_intl_calls int,
+total_intl_charge decimal(10,2),
+number_customer_service_calls int,
+churn int,
+international_plan_yes int,
+voice_mail_plan_yes int
+);
